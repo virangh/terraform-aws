@@ -1,0 +1,14 @@
+@'
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+*.pem
+*.ppk
+.env
+'@ | Set-Content -Encoding utf8 .gitignore
